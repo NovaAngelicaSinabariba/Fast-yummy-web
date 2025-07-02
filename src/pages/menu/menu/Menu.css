@@ -1,0 +1,700 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1280px;
+    height: 720px;
+  }
+  
+  .desktop .overlap {
+    position: relative;
+    width: 1368px;
+    height: 720px;
+  }
+  
+  .desktop .mask {
+    position: absolute;
+    width: 1280px;
+    height: 615px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .overlap-group {
+    position: relative;
+    height: 615px;
+  }
+  
+  .desktop .download-nero-AI {
+    position: absolute;
+    width: 1280px;
+    height: 597px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .rectangle {
+    width: 1280px;
+    height: 615px;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 250, 250, 0) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop .div {
+    width: 1280px;
+    height: 720px;
+    left: 0;
+    background-color: #f559060d;
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop .MASUKK {
+    position: absolute;
+    width: 1368px;
+    height: 116px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .overlap-2 {
+    position: absolute;
+    width: 305px;
+    height: 58px;
+    top: 28px;
+    left: 99px;
+  }
+  
+  .desktop .group {
+    position: absolute;
+    width: 221px;
+    height: 46px;
+    top: 12px;
+    left: 84px;
+  }
+  
+  .desktop .logo {
+    width: 225px;
+    height: 46px;
+  }
+  
+  .desktop .overlap-group-2 {
+    position: relative;
+    width: 221px;
+    height: 46px;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    width: 102px;
+    top: 0;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    width: 174px;
+    top: 0;
+    left: 47px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #f55906;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .group-2 {
+    position: absolute;
+    width: 87px;
+    height: 45px;
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/b6RHuuK8/img/premium-vector---fast-food-logo-design-vector-removebg-preview-1@2x.png);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .home-menu-contact {
+    position: absolute;
+    top: 40px;
+    left: 492px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .span {
+    font-weight: 800;
+    color: #f55906;
+  }
+  
+  .desktop .text-wrapper-3 {
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .desktop .text-wrapper-4 {
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .desktop .overlap-3 {
+    position: absolute;
+    width: 222px;
+    height: 46px;
+    top: 32px;
+    left: 951px;
+  }
+  
+  .desktop .rectangle-2 {
+    width: 105px;
+    height: 46px;
+    left: 117px;
+    background-color: #f55906;
+    border-radius: var(--size-radius-full);
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop .rectangle-3 {
+    width: 105px;
+    height: 46px;
+    left: 0;
+    border-radius: var(--size-radius-full);
+    border: 1px solid;
+    border-color: #a7a7a7;
+    position: absolute;
+    top: 0;
+  }
+  
+  .desktop .masuk {
+    position: absolute;
+    width: 177px;
+    height: 19px;
+    top: 13px;
+    left: 30px;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-111%, -18%);
+    width: 105px;
+    height: 46px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+
+  
+  .desktop .text-wrapper-6 {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 117px); /* 117px sesuai jarak shape Sign Up */
+    transform: translate(-111%, -18%);
+    width: 105px;
+    height: 46px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  
+  .desktop .menu-utama {
+    position: absolute;
+    width: 1058px;
+    height: 506px;
+    top: 134px;
+    left: 111px;
+  }
+  
+  .desktop .overlap-4 {
+    position: relative;
+    height: 506px;
+  }
+  
+  .desktop .menu {
+    position: absolute;
+    width: 1058px;
+    height: 440px;
+    top: 66px;
+    left: 0;
+  }
+  
+  .desktop .ORDER-NOW-wrapper {
+    position: absolute;
+    width: 430px;
+    height: 210px;
+    top: 0;
+    left: 0;
+    background-image: url(https://c.animaapp.com/b6RHuuK8/img/img-0625-1@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .ORDER-NOW {
+    top: 146px;
+    left: 19px;
+    position: relative;
+    width: 139px;
+    height: 45px;
+  }
+  
+  .desktop .div-wrapper {
+    position: relative;
+    width: 137px;
+    height: 45px;
+    background-color: #f55906;
+    border-radius: var(--size-radius-full);
+  }
+  
+  .desktop .text-wrapper-7 {
+    position: absolute;
+    width: 84px;
+    top: 13px;
+    left: 27px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .overlap-5 {
+    position: absolute;
+    width: 605px;
+    height: 210px;
+    top: 0;
+    left: 453px;
+    background-image: url(https://c.animaapp.com/b6RHuuK8/img/img-0632-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .overlap-group-wrapper {
+    top: 146px;
+    left: 21px;
+    position: relative;
+    width: 139px;
+    height: 45px;
+  }
+  
+  .desktop .overlap-6 {
+    position: absolute;
+    width: 430px;
+    height: 210px;
+    top: 230px;
+    left: 628px;
+    background-image: url(https://c.animaapp.com/b6RHuuK8/img/img-0636-1@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .ORDER-NOW-2 {
+    top: 147px;
+    left: 23px;
+    position: relative;
+    width: 139px;
+    height: 45px;
+  }
+  
+  .desktop .overlap-7 {
+    position: absolute;
+    width: 605px;
+    height: 210px;
+    top: 230px;
+    left: 0;
+    background-image: url(https://c.animaapp.com/b6RHuuK8/img/img-0644-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .desktop .ORDER-NOW-3 {
+    top: 142px;
+    left: 19px;
+    position: relative;
+    width: 139px;
+    height: 45px;
+  }
+  
+  .desktop .tulisan-menu {
+    position: absolute;
+    width: 778px;
+    height: 381px;
+    top: 0;
+    left: 15px;
+  }
+  
+  .desktop .OUR-ITEMS {
+    position: absolute;
+    width: 198px;
+    top: 0;
+    left: 413px;
+    font-family: "Nunito Sans", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-8 {
+    color: #000000;
+  }
+  
+  .desktop .line {
+    top: 23px;
+    left: 369px;
+    position: absolute;
+    width: 40px;
+    height: 2px;
+  }
+  
+  .desktop .img {
+    top: 22px;
+    left: 616px;
+    position: absolute;
+    width: 40px;
+    height: 2px;
+  }
+  
+  .desktop .text-wrapper-9 {
+    position: absolute;
+    width: 128px;
+    top: 91px;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .p {
+    position: absolute;
+    width: 131px;
+    top: 114px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-10 {
+    position: absolute;
+    width: 76px;
+    top: 91px;
+    left: 468px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-11 {
+    position: absolute;
+    width: 220px;
+    top: 120px;
+    left: 468px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-12 {
+    position: absolute;
+    width: 202px;
+    top: 347px;
+    left: 4px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-13 {
+    position: absolute;
+    width: 134px;
+    top: 316px;
+    left: 4px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-14 {
+    position: absolute;
+    width: 104px;
+    top: 314px;
+    left: 634px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-15 {
+    position: absolute;
+    width: 126px;
+    top: 338px;
+    left: 634px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-menu-contact a {
+    text-decoration: none;
+    color: black;
+    font-weight:550;
+    margin: 0 10px;
+  }
+  
+  .home-menu-contact a:hover {
+    color: orange;
+  }
+  
+  .signin-click-area,
+  .signup-click-area {
+    position: absolute;
+    width: 105px;
+    height: 46px;
+    top: 0;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  /* Posisi klik mengikuti rectangle-3 dan rectangle-2 */
+  .signin-click-area {
+    left: 0; /* sesuai posisi rectangle-3 */
+  }
+
+  .signup-click-area {
+    left: 117px; /* sesuai posisi rectangle-2 */
+  }
+
+  /* Hover efek visual */
+  .signin-click-area:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-radius: 9999px;
+  }
+  
+  .signup-click-area:hover {
+    box-shadow: 0 0 10px rgba(255, 117, 43, 0.5);
+    border-radius: 9999px;
+  }
+
+
+    /* ===== FORM CONTAINER ===== */
+#signinForm, #signupForm {
+  width: 300px;
+  margin: 80px auto;
+  padding: 30px 25px;
+  background: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* ===== TITLES ===== */
+#signinForm h2, #signupForm h2 {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fe6201;
+  font-weight: bolder;
+}
+
+/* ===== INPUT FIELDS ===== */
+#signinForm input, #signupForm input,
+#signupForm select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+#signinForm input:focus, #signupForm input:focus,
+#signupForm select:focus {
+  border-color: #fe6201;
+}
+
+/* ===== BUTTON ===== */
+#signinForm button, #signupForm button {
+  padding: 10px;
+  background: #fe6201;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background 0.3s ease;
+}
+
+#signinForm button:hover, #signupForm button:hover {
+  background: #fe6201;
+}
+
+/* ===== SMALL TEXT & LINKS ===== */
+#signinForm small, #signupForm small {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #555;
+}
+
+#signinForm a, #signupForm a {
+  color: #fe6201;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#signinForm a:hover, #signupForm a:hover {
+  text-decoration: underline;
+}
+
+/* ===== CLOSE BUTTON ===== */
+.close-btn {
+  position: absolute;
+  top: 113px;
+  right: 0px;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #000000;
+}
+
+.send-btn {
+  background-color: #ff5757;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+:root {
+    --size-radius-full: 9999px;
+  }
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700|Poppins:500,400|Nunito+Sans:400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
